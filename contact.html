@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="node_modules/swup/dist/swup.min.js"></script> 
+    <script defer src="script.js"></script>
+    
+    <link rel="stylesheet" href="portfolio-style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="opening-contact">
+        <div class="nav-cont">
+            <ul>
+                <li><a href="portfolio.html">Home</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <form onSubmit="sendEmail(); reset(); return false;" class="contact-form" data-aos="fade-left">
+        <div class="contact-head">
+            <h3>Contact</h3>
+        </div>
+
+        <div class="contact-fields">
+            <input type="text" id="name" required placeholder="Your name"/>
+            <input type="text" id="email" required placeholder="Your email"/>
+            <textarea rows="4" id="concern" required placeholder="Your concern"></textarea>
+        </div>
+
+        <div class="sub">
+            <button class="sub-button" type="submit">Submit</button>
+        </div>
+    </form>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contact.js"></script>
+    <script src="slider.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
