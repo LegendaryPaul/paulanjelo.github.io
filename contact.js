@@ -8,7 +8,7 @@ function sendEmail(){
         To : 'paulanjelozzz@gmail.com',
         From :'paulanjelozzz@gmail.com',
         Subject : "Someone wants to work with you!",
-        Body : "Name: " + name + "<br/> User Email: " + email + "<br/> User Concern: " + concern
+        Body : "Name: " + name + "<br/> User Email: " + email + "<br/> Message: " + concern
     }).then(
         message => alert(message)
     );
