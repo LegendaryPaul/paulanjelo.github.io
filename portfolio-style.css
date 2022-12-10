@@ -189,7 +189,8 @@ input, textarea:focus {
 }
 
 button {
-    margin: 10px auto;
+    margin: 15px auto;
+    margin-left: 0vw;
 }
 
 .butt {
@@ -225,20 +226,20 @@ button {
 }
 .icons-container .me-cont:nth-child(2) {
     text-align: right;
-    margin-left: 56.5%;
+    margin-left: 52.1%;
 }
 /* .icoms-container .me-cont {
     margin-bottom: 50px;
 } */
 .icons-container .self{
-    width: 500px;
+    width: 550px;
     margin-top: -10px;
 }
 .icons-container .self p{
     background-color: #FF5722;
-    font-size: 18px;
+    font-size: 20px;
     padding: 20px 20px 20px 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
