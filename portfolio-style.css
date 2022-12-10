@@ -233,7 +233,7 @@ button {
 } */
 .icons-container .self{
     width: 550px;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 .icons-container .self p{
     background-color: #FF5722;
@@ -254,7 +254,7 @@ button {
     font-weight: 700;
     border: none;
     background-color: #FF5722;
-    height: 70px;
+    height: 73px;
     width: 140px;
     text-transform: uppercase;
 }
