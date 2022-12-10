@@ -179,6 +179,7 @@ input, textarea:focus {
 }
 
 .about-container .con {
+    width: 700px;
     border: 7px solid #9C27B0;
     padding: 5px;
 }
