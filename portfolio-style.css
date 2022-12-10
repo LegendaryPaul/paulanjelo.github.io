@@ -17,7 +17,7 @@
     margin:  15% 60% 0 0;
 }
 .container .cons {
-    background:url(/images/292625968_2854371338202407_824891469964604926_n.jpg);
+    background:url(images/292625968_2854371338202407_824891469964604926_n.jpg);
     height: 219px;
     width: 219px;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@
 .container .cons:hover {
     transition: 0.5s ease;
     z-index: 999;
-    background: url(/images/220.png);
+    background: url(images/220.png);
     height: 220px;
     width: 220px;
     background-repeat: no-repeat;
