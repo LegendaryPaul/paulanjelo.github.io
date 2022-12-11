@@ -10,6 +10,7 @@
     scroll-behavior: smooth; 
 }
 
+
 .container {
     display: flex;
     align-items: center;
@@ -60,6 +61,7 @@
 .opening .intro-cont{
     background-color: #0288D1;
     height: 90vh;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,7 +177,6 @@ input, textarea:focus {
     align-items: center;
     margin: -30vh 0 0 20vw;
     z-index: 9;
-    /* margin: -15% 0 0 25%; */
 }
 
 .about-container .con {
@@ -249,7 +250,8 @@ button {
 }
 .icons-container .me-cont:nth-child(2) {
     text-align: right;
-    margin-left: 52.1%;
+    width: 600px;
+    margin-left: 37vw;
 }
 /* .icoms-container .me-cont {
     margin-bottom: 50px;
@@ -265,12 +267,46 @@ button {
     font-weight: 600;
     border-radius: 0 20px 20px 20px;
 }
-.icons-container .self2 p{
+.icons-container .self3 p{
     background-color: #0288D1;
     font-size: 20px;
     padding: 20px 20px 20px 20px;
     font-weight: 600;
     border-radius: 20px 0 20px 20px;
+}
+.icons-container .self2 ul{
+    background-color: #0288D1;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    font-weight: 600;
+    border-radius: 0 0 0 20px;
+}
+.icons-container .self2 ul:nth-child(2){
+    background-color: #0288D1;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    font-weight: 600;
+    border-radius: 0 20px 20px 0;
+}
+.icons-container .self2 .list-con p {
+    background-color: #0288D1;
+    margin-bottom: 12px;
+    padding: 0 10px;
+    width: 400px;
+    font-weight: 700;
+}
+.icons-container .self2 .list-con .list{
+    background-color: #0288D1;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+    margin: auto;
+}
+.icons-container .self2{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
 }
 
 
@@ -301,6 +337,18 @@ button {
     text-transform: uppercase;
     border-radius: 20px 20px 0 0;
     margin-bottom: 0;
+}
+.icons-container .logo3 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: #0288D1;
+    height: 73px;
+    width: 140px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    border-radius: 20px 20px 0 0;
 }
 
 .nav-con {
