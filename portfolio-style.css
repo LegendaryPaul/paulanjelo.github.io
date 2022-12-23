@@ -217,7 +217,7 @@ button {
     color: black;
     border: none;
     font-weight: 700;
-    transition: 0.3s ease;
+    transition: 0.5s ease;
     padding: 15px;
     text-decoration: none;
     border-radius: 100% 100% 100% 100%;
